@@ -22,7 +22,7 @@ public class Calculator {
 
                 Number firstNumber = NumberService.parseAndValidate(symbols[0]);
                 Number secondNumber = NumberService.parseAndValidate(symbols[2], firstNumber.getType());
-                String result = ca.calculate(firstNumber, secondNumber, symbols[1]);
+                String result = Cal.calculate(firstNumber, secondNumber, symbols[1]);
                 System.out.println("Output: \n" + result);
 
             } catch (Exception e) {

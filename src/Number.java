@@ -1,9 +1,9 @@
 class Number {
 
     private final int value;
-    private final rm type;
+    private final Roman type;
 
-    Number(int value, rm type) {
+    Number(int value, Roman type) {
         this.value = value;
         this.type = type;
     }
@@ -12,7 +12,7 @@ class Number {
         return value;
     }
 
-    rm getType() {
+    Roman getType() {
         return type;
     }
 }

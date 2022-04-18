@@ -1,4 +1,4 @@
-public enum rm {
+public enum Roman {
     ARABIC,
     ROMAN
 }
